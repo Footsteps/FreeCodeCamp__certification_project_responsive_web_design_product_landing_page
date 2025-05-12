@@ -1,16 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product Landing Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
     />
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header id="header">
+      <div class="title">
+        <img src="./icons/food.png" alt="food icon" id="header-img" />
+        <title>Nahrungsampel</title>
+      </div>
+      <nav id="nav-bar">
+        <a href=".about" class="nav-link">Worum geht's?</a>
+        <a href=".video" class="nav-link">Wie es funktioniert</a>
+        <a href=".intolerances" class="nav-link">Intoleranzen</a>
+      </nav>
+    </header>
+
+    <main>
+        <form action="https://www.freecodecamp.com/email-submit" method="post">
+        <div>
+            <h1>Tipps and tricks to cook for people with food intolerances</h1>
+            <label for="Email">
+            <input type="email" id="email" name="email" placeholder="Enter your email address"></label>
+            <input type="submit" value="Send" id="submit"/>
+        </div>
+    </form>
+      <section class="about">
+        <div class="lists">
+          <img src="./icons/serving.png" alt="" />
+          <h2>Intoleranzen</h2>
+          <p>
+            Lactose-Intolerance, Fructose-Intolerance, Nickel- Intolerance and
+            Histamine-Intolerance: We offer a list including all the foods that
+            can be eaten with one or several food intolerances.
+          </p>
+        </div>
+        <div class="search">
+          <img src="./icons/chicken" alt="" />
+          <h2>
+            You can search for specific foods and learn if people with
+            intolerances can eat them.
+          </h2>
+        </div>
+        <div class="recepies">
+          <img src="./icons/icecream.png" alt="" />
+          <h2>Rezepte- oder Mitbringseltipps</h2>
+          <p>We offer recepy-tips (please contribute!)</p>
+        </div>
+      </section>
+      <section class="video">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/pESqaCqce1U?si=iZ4Q_sULsebUH646"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          id="video"
+        ></iframe>
+      </section>
+      <section class="intolerances">
+        <div>
+            <h3>Nickel-Intoleranz</h3>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <button type="submit" value="Nickel">Search</button>
+        </div>
+        <div>
+            <h3>Histamin-Intoleranz</h3>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <button type="submit" value="Lactose">Search</button>
+        </div>
+        <div>
+            <h3>Fructose-Intoleranz</h3>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <button type="submit" value="Fructose">Search</button>
+        </div>
+        <div>
+            <h3>Laktose-Intoleranz</h3>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <p>Lorem Ipsum</p>
+            <button type="submit" value="Lactose">Search</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <a href=".title">Privacy</a>
+        <a href=".title">Terms</a>
+        <a href=".title">Contact</a>
+
+        <p>Copyright 2025, Angela Schumacher</p>
+    </footer>
+  </body>
 </html>
