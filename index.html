@@ -24,37 +24,49 @@
     </header>
 
     <main>
-        
-        <div>
-            <h2>Tipps and tricks to cook for people with food intolerances</h2>
-            <form action="https://www.freecodecamp.com/email-submit" method="post">
-            <label for="Email">
-            <input type="email" id="email" name="email" placeholder="Enter your email address"></label>
-            <input type="submit" value="Send" id="submit"/>
-          </form>
-        </div>
-  
-      <section class="about">
+      <div class="form-section">
+        <h2>Tipps and tricks to cook for people with food intolerances</h2>
+        <form action="https://www.freecodecamp.com/email-submit" method="post">
+          <label for="Email">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email address"
+          /></label>
+          <input type="submit" value="Send" id="submit" />
+        </form>
+      </div>
+
+      <section class="features">
         <div class="lists">
+          
           <img src="./icons/serving.png" alt="" />
-          <h2>Intoleranzen</h2>
-          <p>
-            Lactose-Intolerance, Fructose-Intolerance, Nickel- Intolerance and
-            Histamine-Intolerance: We offer a list including all the foods that
-            can be eaten with one or several food intolerances.
-          </p>
+          <div class="grid">
+            <h3>Intoleranzen</h3>
+            <p>
+              Lactose-Intolerance, Fructose-Intolerance, Nickel- Intolerance and
+              Histamine-Intolerance: We offer a list including all the foods
+              that can be eaten with one or several food intolerances.
+            </p>
+          </div>
         </div>
         <div class="search">
-          <img src="./icons/chicken" alt="" />
-          <h2>
-            You can search for specific foods and learn if people with
-            intolerances can eat them.
-          </h2>
+          <img src="./icons/chicken.png" alt="" />
+          <div class="grid">
+            <h3>Suche</h3>
+            <p>
+              You can search for specific foods and learn if people with
+              intolerances can eat them.
+            </p>
+          </div>
         </div>
         <div class="recepies">
           <img src="./icons/icecream.png" alt="" />
-          <h2>Rezepte- oder Mitbringseltipps</h2>
-          <p>We offer recepy-tips (please contribute!)</p>
+          <div class="grid">
+            <h3>Rezepte- oder Mitbringseltipps</h3>
+            <p>We offer recepy-tips (please contribute!)</p>
+          </div>
         </div>
       </section>
       <section class="video">
@@ -70,48 +82,51 @@
           id="video"
         ></iframe>
       </section>
-      <section class="intolerances">
+      <section>
+        <form action="#header" method="post" class="intolerances">
         <div>
-            <h3>Nickel-Intoleranz</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <button type="submit" value="Nickel">Search</button>
+          <h3>Nickel-Intoleranz</h3>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <button type="submit" value="Nickel">Search</button>
         </div>
         <div>
-            <h3>Histamin-Intoleranz</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <button type="submit" value="Lactose">Search</button>
+          <h3>Histamin-Intoleranz</h3>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <button type="submit" value="Lactose">Search</button>
         </div>
         <div>
-            <h3>Fructose-Intoleranz</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <button type="submit" value="Fructose">Search</button>
+          <h3>Fructose-Intoleranz</h3>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <button type="submit" value="Fructose">Search</button>
         </div>
         <div>
-            <h3>Laktose-Intoleranz</h3>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <p>Lorem Ipsum</p>
-            <button type="submit" value="Lactose">Search</button>
+          <h3>Laktose-Intoleranz</h3>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <p>Lorem Ipsum</p>
+          <button type="submit" value="Lactose">Search</button>
         </div>
+      </form>
       </section>
     </main>
 
     <footer>
-        <a href=".title">Privacy</a>
-        <a href=".title">Terms</a>
-        <a href=".title">Contact</a>
-
-        <p>Copyright 2025, Angela Schumacher</p>
+      <div class="links">
+      <a href="#header">Privacy</a>
+      <a href="#header">Terms</a>
+      <a href="#header">Contact</a>
+    </div>
+      <p>Copyright 2025, Angela Schumacher</p>
     </footer>
   </body>
 </html>
